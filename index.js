@@ -160,61 +160,8 @@ app.get("/api/multivariable",(req,res)=>{
       ]})
 })
 app.get("/api/automatamcq",(req,res)=>{
-    res.json({"data":[
-        {
-          questoin: "what is the correct answer?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"A"
-        },
-        {
-          questoin: "what is the correct answer for the second question?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"C"
-        },
-        {
-          questoin: "what is the correct answer for the third question?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"D"
-        },{
-          questoin: "what is the correct answer for the fourth question?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"D"
-        },{
-          questoin: "what is the correct answer for the fifth question?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"D"
-        },{
-          questoin: "what is the correct answer for the sixth question?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"D"
-        },{
-          questoin: "what is the correct answer for the seventh question?",
-          A:"first answer",
-          B:"second answer",
-          C:"third answer",
-          D:"fourth answer",
-          correct:"D"
-        }
-        
-      ]})
+    res.json({"data":[  {    "question": "Which of the following represents a scalar quantity?",    "A": "Vector",    "B": "Matrix",    "C": "Scalar",    "D": "Tensor",    "correct": "C"  },  {    "question": "What is the determinant of the 2x2 matrix [[3, 4], [2, -1]]?",    "A": "5",    "B": "7",    "C": "-7",    "D": "-5",    "correct": "D"  },  {    "question": "Which of the following is a valid dot product of two vectors?",    "A": "Vector × Scalar",    "B": "Matrix × Vector",    "C": "Vector × Vector",    "D": "Scalar × Matrix",    "correct": "C"  },  {    "question": "What is the rank of a 3x3 identity matrix?",    "A": "1",    "B": "2",    "C": "3",    "D": "0",    "correct": "C"  },  {    "question": "Which of the following is a valid eigenvalue of a symmetric matrix?",    "A": "Complex number",    "B": "Negative number",    "C": "Positive number",    "D": "All eigenvalues can be any real number",    "correct": "D"  },  {    "question": "What is the null space of a matrix?",    "A": "The set of all row vectors in the matrix",    "B": "The set of all column vectors in the matrix",    "C": "The set of all vectors orthogonal to the rows of the matrix",    "D": "The set of all vectors that satisfy Ax = 0",    "correct": "D"  },  {    "question": "Which of the following matrices is orthogonal?",    "A": "[[1, 0], [0, 1]]",    "B": "[[1, 1], [-1, 1]]",    "C": "[[2, 0], [0, 2]]",    "D": "[[0, 1], [-1, 0]]",    "correct": "A"  }]
+})
 })
 
 
